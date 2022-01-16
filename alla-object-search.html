@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./alla-object-search-style-1.0.1.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="allaObejctSearchGnbWrap">
+        <a id="btnGm" class="allaGnbTitle allaGnbTitleFirst" onclick="allaSearchGmFn()">기말시험</a>
+        <a id="btnDc" class="allaGnbTitle" onclick="allaSearchDcFn()">대체시험</a>
+        <a id="btnGj" class="allaGnbTitle" onclick="allaSearchGjFn()">계절시험</a>
+        <a href="./alla-all-object-search.html" class="allaGnbTitle">전과목</a>
+    </div>
+    <div class="allaObjectSearchWrap" id="allaGmObjectSearchWrap">
+        <input type="search" id="allaGmObjectSearchBox" onkeyup="allaGmSearchFn()" placeholder="과목명으로 검색하세요.">
+        <ul id="allaGmObjectList">
+            <li><a class="allaObjectListGrade">1학년 1학기</a></li>
+            <li><a href="#">Agnes</a></li>
+            <li><a href="#">기말Ana<span class="allaObjectListReady"> (생성중)</span></a></li>
+            <li><a href="#">Angela<span class="allaObjectListCollect"> (수집중)</span></a></li>
+            <li><a class="allaObjectListGrade">2학년 1학기</a></li>
+            <li><a href="#">Billy</a></li>
+            <li><a href="#">Bob</a></li>
+            <li><a href="#">Burro</a></li>
+            <li><a href="#">Bruno</a></li>
+            <li><a class="allaObjectListGrade">3학년 1학기</a></li>
+            <li><a href="#">Calvin</a></li>
+            <li><a href="#">Christina</a></li>
+            <li><a href="#">Cindy</a></li>
+            <li><a href="#">Curry</a></li>
+            <li><a class="allaObjectListGrade">4학년 1학기</a></li>
+            <li><a href="#">Daril</a></li>
+            <li><a href="#">Denver</a></li>
+            <li><a href="#">Dewil</a></li>
+            <li><a href="#">Dude</a></li>
+        </ul>
+    </div>
+
+    <div class="allaObjectSearchWrap" id="allaDcObjectSearchWrap">
+        <input type="search" id="allaDcObjectSearchBox" onkeyup="allaDcSearchFn()" placeholder="유아교육과 과목명으로 검색하세요.">
+        <ul id="allaDcObjectList">
+            <li><a class="allaObjectListGrade">대체1학년</a></li>
+            <li><a href="#">Agnes</a></li>
+            <li><a href="#">대체Ana</a></li>
+            <li><a href="#">Angela</a></li>
+            <li><a class="allaObjectListGrade">2학년</a></li>
+            <li><a href="#">Billy</a></li>
+            <li><a href="#">Bob</a></li>
+            <li><a href="#">Burro</a></li>
+            <li><a href="#">Bruno</a></li>
+            <li><a class="allaObjectListGrade">3학년</a></li>
+            <li><a href="#">Calvin</a></li>
+            <li><a href="#">Christina</a></li>
+            <li><a href="#">Cindy</a></li>
+            <li><a href="#">Curry</a></li>
+            <li><a class="allaObjectListGrade">4학년</a></li>
+            <li><a href="#">Daril</a></li>
+            <li><a href="#">Denver</a></li>
+            <li><a href="#">Dewil</a></li>
+            <li><a href="#">Dude</a></li>
+        </ul>
+    </div>
+
+    <div class="allaObjectSearchWrap" id="allaGjObjectSearchWrap">
+        <input type="search" id="allaGjObjectSearchBox" onkeyup="allaGjSearchFn()" placeholder="유아교육과 과목명으로 검색하세요.">
+        <ul id="allaGjObjectList">
+            <li><a href="#">Agnes</a></li>
+            <li><a href="#">계절Ana</a></li>
+            <li><a href="#">Angela</a></li>
+            <li><a href="#">Billy</a></li>
+            <li><a href="#">Bob</a></li>
+            <li><a href="#">Burro</a></li>
+            <li><a href="#">Bruno</a></li>
+            <li><a href="#">Calvin</a></li>
+            <li><a href="#">Christina</a></li>
+            <li><a href="#">Cindy</a></li>
+            <li><a href="#">Curry</a></li>
+            <li><a href="#">Daril</a></li>
+            <li><a href="#">Denver</a></li>
+            <li><a href="#">Dewil</a></li>
+            <li><a href="#">Dude</a></li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript" src="https://tistory2.daumcdn.net/tistory/4700529/skin/images/alla-object-search-script-1.0.1.js"></script>
+</body>
+
+</html>

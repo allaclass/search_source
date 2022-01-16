@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./alla-object-search-style-1.0.1.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="allaObejctSearchGnbWrap">
+        <a id="btnGm" class="allaGnbTitle allaGnbTitleFirst" onclick="allaSearchGmFn()">기말시험</a>
+        <a id="btnDc" class="allaGnbTitle" onclick="allaSearchDcFn()">대체시험</a>
+        <a id="btnGj" class="allaGnbTitle" onclick="allaSearchGjFn()">계절시험</a>
+    </div>
+    <div class="allaObjectSearchWrap" id="allaGmObjectSearchWrap">
+        <input type="search" id="allaGmObjectSearchBox" onkeyup="allaGmSearchFn()" placeholder="과목명으로 검색하세요.">
+        <ul id="allaGmObjectList">
+            <li><a class="allaObjectListGrade">ㄱ</a></li>
+            <li><a href="#">교육철학</a></li>
+            <li><a href="#">교육의이해<span class="allaObjectListReady"> (생성중)</span></a></li>
+            <li><a href="#">교육생활<span class="allaObjectListCollect"> (수집중)</span></a></li>
+            <li><a class="allaObjectListGrade">ㄴ</a></li>
+            <li><a class="allaObjectListGrade">ㄷ</a></li>
+            <li><a class="allaObjectListGrade">ㄹ</a></li>
+        </ul>
+    </div>
+
+    <div class="allaObjectSearchWrap" id="allaDcObjectSearchWrap">
+        <input type="search" id="allaDcObjectSearchBox" onkeyup="allaDcSearchFn()" placeholder="과목명으로 검색하세요.">
+        <ul id="allaDcObjectList">
+            <li><a class="allaObjectListGrade">ㄱ</a></li>
+            <li><a class="allaObjectListGrade">ㄴ</a></li>
+            <li><a class="allaObjectListGrade">ㄷ</a></li>
+            <li><a class="allaObjectListGrade">ㄹ</a></li>
+        </ul>
+    </div>
+
+    <div class="allaObjectSearchWrap" id="allaGjObjectSearchWrap">
+        <input type="search" id="allaGjObjectSearchBox" onkeyup="allaGjSearchFn()" placeholder="과목명으로 검색하세요.">
+        <ul id="allaGjObjectList">
+            <li><a class="allaObjectListGrade">ㄱ</a></li>
+            <li><a class="allaObjectListGrade">ㄴ</a></li>
+            <li><a class="allaObjectListGrade">ㄷ</a></li>
+            <li><a class="allaObjectListGrade">ㄹ</a></li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript" src="https://tistory2.daumcdn.net/tistory/4700529/skin/images/alla-object-search-script-1.0.1.js"></script>
+</body>
+
+</html>

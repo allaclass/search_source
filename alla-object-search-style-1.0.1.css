@@ -1,0 +1,124 @@
+/* -------------------------------------------- */
+/* 제  목 : alla-object-search-style-1.0.1.css */
+/* 작성일 : 2021.06.03                           */
+/* 작성자 : 김현수                                */
+/* -------------------------------------------- */
+
+		/* gnb */
+		div.allaObejctSearchGnbWrap {
+			border-bottom: 2px solid rgba(0,0,0,0.05);
+			max-width: 740px;
+			margin: auto;
+			margin-bottom: 20px;
+			margin-top: 100px;
+		}
+		div.allaObejctSearchGnbWrap a.allaGnbTitle {
+			display: inline-block;
+			padding: 22px 4px;
+			margin: 0 12px;
+			color: #777;
+		}
+		div.allaObejctSearchGnbWrap a.allaGnbTitleFirst {
+			margin-left: 0px;
+		}
+		div.allaObejctSearchGnbWrap a.allaGnbTitleCurrent {
+			border-bottom: 4px solid #333;
+			color: #333;
+			font-weight: 500;
+		}
+		div.allaObejctSearchGnbWrap a.allaGnbTitle:hover {
+			border-bottom: 4px solid #333;
+			color: #333;
+			font-weight: 500;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		div.allaObejctSearchGnbWrap a.allaGnbTitle:link,
+		div.allaObejctSearchGnbWrap a.allaGnbTitle:visited {
+			color: #777;
+			text-decoration: none;
+		}
+		div.allaObejctSearchGnbWrap a.allaGnbTitle:active {
+			text-decoration: none;
+		}
+
+		/* search */
+		div.allaObjectSearchWrap {
+			max-width: 740px;
+			margin: auto;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		#allaGmObjectSearchBox,
+		#allaDcObjectSearchBox,
+		#allaGjObjectSearchBox {
+			background-image: url("https://tistory4.daumcdn.net/tistory/4700529/skin/images/ico_search.png");
+			background-size: 20px;
+			background-position: 10px 12px;
+			background-repeat: no-repeat; 
+			width: 100%; 
+			height: 44px;
+			font-size: 17px; 
+			padding: 12px 20px 12px 40px;
+			margin-bottom: 20px; 
+			border: none;
+			border-radius: 2px;
+			box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+		}
+		#allaGmObjectSearchBox:focus,
+		#allaDcObjectSearchBox:focus,
+		#allaGjObjectSearchBox:focus {
+			outline: none;
+		}
+		#allaGmObjectSearchBox:hover, input:focus,
+		#allaDcObjectSearchBox:hover, input:focus,
+		#allaGjObjectSearchBox:hover, input:focus {
+			box-shadow: 0 3px 8px 0 rgba(0,0,0, 0.2), 0 0 0 1px rgba(0,0,0, 0.08);
+		}
+		ul#allaGmObjectList,
+		ul#allaDcObjectList,
+		ul#allaGjObjectList {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+		}
+		ul#allaGmObjectList a,
+		ul#allaDcObjectList a,
+		ul#allaGjObjectList a {
+				border: 1px solid #ddd;
+				margin-top: -1px; 
+				background-color: #f6f6f6; 
+				padding: 12px; 
+				text-decoration: none;
+				font-size: 18px; 
+				color: black; 
+				display: block;
+		}
+		ul#allaGmObjectList a span.allaObjectListReady,
+		ul#allaDcObjectList a span.allaObjectListReady,
+		ul#allaGjObjectList a span.allaObjectListReady {
+				font-size: 14px;
+				color: green;
+		}
+		ul#allaGmObjectList a span.allaObjectListCollect,
+		ul#allaDcObjectList a span.allaObjectListCollect,
+		ul#allaGjObjectList a span.allaObjectListCollect {
+				font-size: 14px;
+				color: red;
+		}
+		ul#allaGmObjectList a.allaObjectListGrade,
+		ul#allaDcObjectList a.allaObjectListGrade,
+		ul#allaGjObjectList a.allaObjectListGrade {
+				background-color: #e2e2e2; 
+				cursor: default;
+				font-weight: 800;
+		}
+		ul#allaGmObjectList a:hover:not(.allaObjectListGrade),
+		ul#allaDcObjectList a:hover:not(.allaObjectListGrade),
+		ul#allaGjObjectList a:hover:not(.allaObjectListGrade) {
+			background-color: #eee; 
+		}
+
+/* -------------------------------------------- */
+/* 종  료 : alla-object-search-style1.0.1.css  */
+/* -------------------------------------------- */
